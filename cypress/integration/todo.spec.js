@@ -5,7 +5,7 @@ describe('filtering todo items', () => {
   beforeEach(() => {
     cy.eyesOpen({
       appName: 'TodoMVC',
-      testName: 'Angie is helping us write our first JavaScript test!',
+      testName: 'the first JavaScript test!',
       browser: [
         { width: 800, height: 600, name: 'firefox' },
         { width: 1024, height: 768, name: 'chrome' },
